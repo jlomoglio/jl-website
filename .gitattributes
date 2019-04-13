@@ -1,1 +1,1 @@
-build/static/* linguist-vendored
+*.js linguist-language=React
