@@ -4,7 +4,11 @@ import { Row, Col } from 'react-bootstrap';
 import ValueCard from '../components/ValueCard';
 import simcoreImg from '../assets/simcore.png';
 import vuiImg from '../assets/vui.png';
+import formImg from '../assets/react-form.png';
+import tvImg from '../assets/react-tv.png';
+import websiteImg from '../assets/react-website.png';
 import jcoreImg from '../assets/jcore.png';
+import imanageImg from '../assets/iManage.PNG';
 import lifecycle from 'react-pure-lifecycle';
 
 const methods = {
@@ -33,13 +37,28 @@ const Styles = styled.div`
   }
 `;
 
+const Imanage = () => (
+  <React.Fragment>
+    <span className="bold">iManage</span>
+    <br />
+    <span>
+      <a href="https://github.com/jlomoglio/imanage" target="_blank" rel="noopener noreferrer">Code Repository</a>
+    </span>
+    <br /><br />
+    <p>
+      iManage is a mock Enterprise Team Project Management System and Corporate Portal. It's built with React, MobX and Styled-Components.
+      It's still a work in progress and its main purpose is to build upon my development skills with React.
+    </p>
+  </React.Fragment>
+);
+
 const SimCore = () => (
   <React.Fragment>
     <span className="bold">SimCore</span>
     <br />
     <span>
-      <a href="https://github.com/jlomoglio/SimCore" target="_blank">Code Repository</a> |
-      <a href="https://www.youtube.com/watch?v=SgTiNqgmBAs&feature=youtu.be" target="_blank" className="link2">Video Demo</a>
+      <a href="https://github.com/jlomoglio/SimCore" target="_blank" rel="noopener noreferrer">Code Repository</a> |
+      <a href="https://www.youtube.com/watch?v=SgTiNqgmBAs&feature=youtu.be" target="_blank" rel="noopener noreferrer" className="link2">Video Demo</a>
     </span>
     <br /><br />
     <p>
@@ -55,13 +74,13 @@ const Vui = () => (
     <span className="bold">Vui</span>
     <br />
     <span>
-      <a href="https://github.com/jlomoglio/vui" target="_blank">Code Repository</a>
+      <a href="https://github.com/jlomoglio/vui" target="_blank" rel="noopener noreferrer">Code Repository</a>
     </span>
     <br /><br />
     <span className="bold">Featured On:</span>
     <br />
     <span>
-      <a href="https://medium.mybridge.co/vue-js-open-source-of-the-month-v-aug-2018-910de5ad173" target="_blank">Medium.com (Rank 6)</a>
+      <a href="https://medium.mybridge.co/vue-js-open-source-of-the-month-v-aug-2018-910de5ad173" target="_blank" rel="noopener noreferrer">Medium.com (Rank 6)</a>
     </span>
     <br /><br />
     <p>
@@ -71,21 +90,63 @@ const Vui = () => (
   </React.Fragment>
 );
 
-const JCore = () => (
-  <React.Fragment>
-    <span className="bold">jCore</span>
-    <br />
-    <span>
-      <a href="https://github.com/jlomoglio/jCore" target="_blank">Code Repository</a>
-    </span>
-    <br /><br />
-    <p>
-      jCore is the custom framework I designed and built for rapidly creating documentation 
-      websites and basic web applications. The framework mimics the base concepts of VueJS. Its 
-      a single page application framework built using jQuery for its functional structure. 
-    </p>
-  </React.Fragment>
-);
+// const JCore = () => (
+//   <React.Fragment>
+//     <span className="bold">jCore</span>
+//     <br />
+//     <span>
+//       <a href="https://github.com/jlomoglio/jCore" target="_blank" rel="noopener noreferrer">Code Repository</a>
+//     </span>
+//     <br /><br />
+//     <p>
+//       jCore is the custom framework I designed and built for rapidly creating documentation 
+//       websites and basic web applications. The framework mimics the base concepts of VueJS. Its 
+//       a single page application framework built using jQuery for its functional structure. 
+//     </p>
+//   </React.Fragment>
+// );
+
+// const ReactForm = () => (
+//   <React.Fragment>
+//     <span className="bold">Multi-Part Form</span>
+//     <br />
+//     <span>
+//       <a href="https://github.com/jlomoglio/react-form" target="_blank" rel="noopener noreferrer">Code Repository</a>
+//     </span>
+//     <br /><br />
+//     <p>
+//       A react multi-part form that I built while learning React. 
+//     </p>
+//   </React.Fragment>
+// );
+
+// const ReactTV = () => (
+//   <React.Fragment>
+//     <span className="bold">TV Series Search</span>
+//     <br />
+//     <span>
+//       <a href="https://github.com/jlomoglio/React-TV-App" target="_blank" rel="noopener noreferrer">Code Repository</a>
+//     </span>
+//     <br /><br />
+//     <p>
+//       A react app for searching for TV series from a remote API. Another learning project. 
+//     </p>
+//   </React.Fragment>
+// );
+
+// const ReactWebsite = () => (
+//   <React.Fragment>
+//     <span className="bold">JL Portfolio Website</span>
+//     <br />
+//     <span>
+//       <a href="https://github.com/jlomoglio/jl-website" target="_blank" rel="noopener noreferrer">Code Repository</a>
+//     </span>
+//     <br /><br />
+//     <p>
+//       The code for this website. My most recent react project.
+//     </p>
+//   </React.Fragment>
+// );
 
 const Projects = () => (
   <Styles>
@@ -93,7 +154,7 @@ const Projects = () => (
       <Row>
         <Col sm={12} className="pb-4">
           <p>
-            The majiority of the projects I have worked on are the intellectual property owned by 
+            The majority of the projects I have worked on are the intellectual property owned by 
             the companies I worked for and therefore I can not show any of the work I did and the 
             projects are either internal or require a membership to access.
           </p>
@@ -102,23 +163,58 @@ const Projects = () => (
           </p>
         </Col>
       </Row>
+
       <Row>
         <Col sm={12} md={4} className="pb-4">
-          <ValueCard img={simcoreImg} width={100}>
+          <ValueCard img={imanageImg} width={100} height={700}>
+            <Imanage />
+          </ValueCard>
+        </Col>
+        <Col sm={12} md={4} className="pb-4">
+          <ValueCard img={simcoreImg} width={100} height={700}>
             <SimCore />
           </ValueCard>
         </Col>
         <Col sm={12} md={4} className="pb-4">
-          <ValueCard img={vuiImg} width={100}>
+          <ValueCard img={vuiImg} width={100} height={700}>
             <Vui />
           </ValueCard>
         </Col>
+      </Row>
+
+      {/* <Row>
         <Col sm={12} md={4} className="pb-4">
-          <ValueCard img={jcoreImg} width={100}>
+          <ValueCard img={jcoreImg} width={100} height={700}>
             <JCore />
           </ValueCard>
         </Col>
+        <Col sm={12} md={4} className="pb-4">
+          <ValueCard img={formImg} width={100} height={550}>
+            <ReactForm />
+          </ValueCard>
+        </Col>
+        <Col sm={12} md={4} className="pb-4">
+          <ValueCard img={tvImg} width={100} height={550}>
+            <ReactTV width={100} height={550} />
+          </ValueCard>
+        </Col>
       </Row>
+
+      <Row>
+        <Col sm={12} md={4} className="pb-4">
+          <Col sm={12} md={4} className="pb-4">
+            <ValueCard img={websiteImg} width={100} height={550}>
+              <ReactWebsite width={100} height={550} />
+            </ValueCard>
+          </Col>
+        </Col>
+        <Col sm={12} md={4} className="pb-4">
+          
+        </Col>
+        <Col sm={12} md={4} className="pb-4">
+          
+        </Col>
+      </Row> */}
 
       <Row>
         <Col>

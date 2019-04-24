@@ -35,6 +35,10 @@ const Styles = styled.div`
     text-align: center;
     padding-bottom: 10px;
   }
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 const JLC = () => (
@@ -45,13 +49,13 @@ const JLC = () => (
     <br /><br />
     <span className="bold">Project:</span>
     <p>
-      Various project types in a variety of diffrent fields and industries.
+      Various project types in a variety of different fields and industries.
     </p>
 
     <span className="list-item">- Real Estate web sites & photography</span>
     <span className="list-item">- The Home Resource Center Web Portal</span>
     <span className="list-item">- InfoSearch Web portal (Clear Channel)</span>
-    <span className="list-item">- Brochures, Posters and RepoGraphics</span>
+    <span className="list-item">- Brochures, Posters and Repographics</span>
     <span className="list-item">- Custom Home Design (Skeen Homes)</span>
     <span className="list-item">- Construction web design</span>
     <span className="list-item">- Photo art and digital compositing</span>
@@ -70,7 +74,7 @@ const Lumina = () => (
   <React.Fragment>
     <span className="job-date">March 2017 - Nov 2017 (Contract)</span>
     <br />
-    <span className="job-title bold">UI/UX Designer & Developer</span>
+    <span className="job-title bold">UI/UX Designer & Front End Developer</span>
     <br /><br />
     <span className="bold">Project:</span>
     <p>
@@ -100,7 +104,7 @@ const ATT = () => (
   <React.Fragment>
     <span className="job-date">March 2016 - Dec 2016 (Contract)</span>
     <br />
-    <span className="job-title bold">UI/UX Designer & Developer</span>
+    <span className="job-title bold">UI/UX Designer & Front End Developer</span>
     <br /><br />
     <span className="bold">Project:</span>
     <p>
@@ -114,7 +118,7 @@ const ATT = () => (
     <span className="list-item">- Frontend Design Subject Matter Expert</span>
     <span className="list-item">- Implemented new design processes</span>
     <span className="list-item">- Designed Pattern Library</span>
-    <span className="list-item">- Project documnetation</span>
+    <span className="list-item">- Project Documentation</span>
     <span className="list-item">- Backlog & Sprint Steward</span>
     <span className="list-item">- Project Presentations & Demos</span>
     <span className="list-item">- Agile Team Lead</span>
@@ -130,11 +134,11 @@ const Seacret = () => (
   <React.Fragment>
     <span className="job-date">Feb 2015 - Oct 2015 (Contract)</span>
     <br />
-    <span className="job-title bold">UI/UX Designer & Developer</span>
+    <span className="job-title bold">UI/UX Designer & Front End Developer</span>
     <br /><br />
     <span className="bold">Project:</span>
     <p>
-      Custom Enterprise Agent Portal for multi-level marketing agencey.
+      Custom Enterprise Agent Portal for multi-level marketing agency.
     </p>
 
     <span className="list-item">- UI/UX Design</span>
@@ -144,7 +148,7 @@ const Seacret = () => (
     <span className="list-item">- Designed a custom sales dashboard</span>
     <span className="list-item">- Implemented new design processes</span>
     <span className="list-item">- Designed Pattern Library</span>
-    <span className="list-item">- Designed Marketing Brouchure visuals</span>
+    <span className="list-item">- Designed Marketing Brochure Visuals</span>
     <span className="list-item">- Designed Mobile UI for Convention App </span>
     <span className="list-item">- Project Presentations & Demos</span>
     <span className="list-item">- Built automated promotion generator</span>
@@ -160,7 +164,7 @@ const JPMorgan = () => (
   <React.Fragment>
     <span className="job-date">Oct 2012 - Sept 2014</span>
     <br />
-    <span className="job-title bold">UI/UX Designer & Developer</span>
+    <span className="job-title bold">UI/UX Designer & Front End Developer</span>
     <br /><br />
     <span className="bold">Project:</span>
     <p>
@@ -190,7 +194,7 @@ const It1 = () => (
   <React.Fragment>
     <span className="job-date">Jan 2009 - Sept 2012</span>
     <br />
-    <span className="job-title bold">Full-stack Web Developer</span>
+    <span className="job-title bold">Full Stack Web Developer</span>
     <br /><br />
     <span className="bold">Project:</span>
     <p>
@@ -217,13 +221,18 @@ const Work = () => (
   <Styles>
     <div className="page">
       <Row>
+        <Col sm={12} md={6} className="pb-4 center">
+          <a className="btn btn-info" href="#recommendations">Recommendations</a> <a className="btn btn-info" href="#references">References</a>
+        </Col>
+      </Row>
+      <Row>
         <Col sm={12} md={6} className="pb-4">
-          <ValueCard img={jlcLogo} width={60}>
+          <ValueCard img={jlcLogo} width={60} height={850}>
             <JLC />
           </ValueCard>
         </Col>
         <Col sm={12} md={6} className="pb-4">
-          <ValueCard img={luminaLogo} width={60}>
+          <ValueCard img={luminaLogo} width={60} height={850}>
             <Lumina />
           </ValueCard>
         </Col>
@@ -231,12 +240,12 @@ const Work = () => (
 
       <Row>
         <Col sm={12} md={6} className="pb-4">
-          <ValueCard img={attLogo} width={60}>
+          <ValueCard img={attLogo} width={60} height={850}>
             <ATT />
           </ValueCard>
         </Col>
         <Col sm={12} md={6} className="pb-4">
-          <ValueCard img={seacretLogo} width={60}>
+          <ValueCard img={seacretLogo} width={60} height={850}>
             <Seacret />
           </ValueCard>
         </Col>
@@ -244,18 +253,19 @@ const Work = () => (
 
       <Row>
         <Col sm={12} md={6} className="pb-4">
-          <ValueCard img={jpmorganLogo} width={60}>
+          <ValueCard img={jpmorganLogo} width={60} height={850}>
             <JPMorgan />
           </ValueCard>
         </Col>
         <Col sm={12} md={6} className="pb-4">
-          <ValueCard img={it1Logo} width={60}>
+          <ValueCard img={it1Logo} width={60} height={850}>
             <It1 />
           </ValueCard>
         </Col>
       </Row>
 
-      <hr className="mb-4 mt-4" />
+
+      <hr className="mb-4 mt-4" id="recommendations" />
 
       <Row>
         <Col sm={12} className="pb-4">
@@ -273,7 +283,7 @@ const Work = () => (
               His work with Kendo UI was impressive enough that my boss, Pierre Bouchard the CDO, used
               it as a primary exemplar for several other teams facing the same challenges. If I were I to
               build a development team, Joe is an excellent example of the talent, personality and approach
-              that would seek out.
+              that I would seek out.
             </p>
             <p>
               Enthusiastic, dynamic and talented people share a common opportunity for improvement: Joe
@@ -292,7 +302,7 @@ const Work = () => (
             <span className="bold">JPMorgan Chase</span>
             <br />
             <span className="bold">
-              <a href="https://www.linkedin.com/in/analyst-kevin-wells/" target="_blank">Contact</a>
+              <a href="https://www.linkedin.com/in/analyst-kevin-wells/" target="_blank" rel="noopener noreferrer">Contact</a>
             </span>
           </div>
 
@@ -326,7 +336,7 @@ const Work = () => (
             <span className="bold">AT&T Technology and Operations</span>
             <br />
             <span className="bold">
-              <a href="https://www.linkedin.com/in/mosh-manresa-8a02192/" target="_blank">Contact</a>
+              <a href="https://www.linkedin.com/in/mosh-manresa-8a02192/" target="_blank" rel="noopener noreferrer">Contact</a>
             </span>
           </div>
 
@@ -334,13 +344,19 @@ const Work = () => (
 
           <div className="box">
             <p>
-            Please accept my strong recommendation for Joe LoMoglio. Joe worked for me as a Lead Programmer in the development of 3D Learning Simulations. Using an Agile methodology, Joe lead the effort to build a 3D Simulation Generator to simplify and make more consistent the quality of 3D Learning Simulations the company was creating. He led a team of 6 developers and supported development teams in Poland and India. 
+              Please accept my strong recommendation for Joe LoMoglio. Joe worked for me as a Lead Programmer in the development 
+              of 3D Learning Simulations. Using an Agile methodology, Joe lead the effort to build a 3D Simulation Generator to simplify 
+              and make more consistent the quality of 3D Learning Simulations the company was creating. He led a team of 6 developers and 
+              supported development teams in Poland and India. 
             </p>
             <p>
-            Joe demonstrated a strong work ethic often working throughout the night to make deadlines. His developers were positively influenced by his example. Joe was able juggle the demands of the client and the need to develop supportable, stable, well documented code.
+              Joe demonstrated a strong work ethic often working throughout the night to make deadlines. His developers were positively 
+              influenced by his example. Joe was able to juggle the demands of the client and the need to develop supportable, stable, 
+              well documented code.
             </p>
             <p>
-            Joe has an in-depth knowledge of front end development. He converted the development team from using HTML5, CSS, and JavaScript to a JavaScript platform that he created, which improved development times significantly and made the development effort more scalable.  
+              Joe has an in-depth knowledge of front end development. He converted the development team from using HTML5, CSS, and JavaScript 
+              to a JavaScript platform that he created, which improved development times significantly and made the development effort more scalable.  
             </p>
             <br />
             
@@ -351,7 +367,7 @@ const Work = () => (
             <span className="bold">Lumina Datamatics </span>
             <br />
             <span className="bold">
-              <a href="https://www.linkedin.com/in/jared-j-snell-310931/" target="_blank">Contact</a>
+              <a href="https://www.linkedin.com/in/jared-j-snell-310931/" target="_blank" rel="noopener noreferrer">Contact</a>
             </span>
           </div>
         </Col>
@@ -359,7 +375,7 @@ const Work = () => (
 
       <Row>
         <Col>
-          <hr className="mt-4 mb-4" />
+          <hr className="mt-4 mb-4" id="references" />
         </Col>
       </Row>
 
@@ -375,7 +391,7 @@ const Work = () => (
             <span className="bold">Lumina Datamatics (2017)</span>
             <br />
             <span className="bold">
-              <a href="https://www.linkedin.com/in/itsamemarco/" target="_blank">Contact</a>
+              <a href="https://www.linkedin.com/in/itsamemarco/" target="_blank" rel="noopener noreferrer">Contact</a>
             </span>
           </div>
 
@@ -389,7 +405,7 @@ const Work = () => (
             <span className="bold">Lumina Datamatics (2017)</span>
             <br />
             <span className="bold">
-              <a href="https://www.linkedin.com/in/marvin-elmore-a2b14132/" target="_blank">Contact</a>
+              <a href="https://www.linkedin.com/in/marvin-elmore-a2b14132/" target="_blank" rel="noopener noreferrer">Contact</a>
             </span>
           </div>
 
@@ -403,7 +419,7 @@ const Work = () => (
             <span className="bold">Seacret Direct (2015)</span>
             <br />
             <span className="bold">
-              <a href="https://www.linkedin.com/in/raylinder/" target="_blank">Contact</a>
+              <a href="https://www.linkedin.com/in/raylinder/" target="_blank" rel="noopener noreferrer">Contact</a>
             </span>
           </div>
 
@@ -417,7 +433,7 @@ const Work = () => (
             <span className="bold">JPMorgan Chase (2012 - 2014)</span>
             <br />
             <span className="bold">
-              <a href="https://www.linkedin.com/in/jason-newberg/" target="_blank">Contact</a>
+              <a href="https://www.linkedin.com/in/jason-newberg/" target="_blank" rel="noopener noreferrer">Contact</a>
             </span>
           </div>
         </Col>

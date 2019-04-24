@@ -70,7 +70,7 @@ const Process = () => (
 
       <Row>
         <Col sm={12} className="pb-4 center">
-          <img src={sprintImg} className="sprint-img" />
+          <img src={sprintImg} className="sprint-img" alt="Discovery" />
         </Col>
       </Row>
 
@@ -85,7 +85,7 @@ const Process = () => (
           </p>
 
           <p>
-            A financial dashboard differs from a enterprise reporting system, and a sales portal looks different 
+            A financial dashboard differs from an enterprise reporting system, and a sales portal looks different 
             than a interactive learning module. Different types of applications with different functionality 
             means that different technologies should be used according to the purposes. A well described and 
             detailed plan made on the basis of this pre-development data can protect a team from spending extra 
@@ -112,13 +112,13 @@ const Process = () => (
           </p>
           <p>
             On the basis of the information that was gathered together in the previous phase, the features map 
-            is created. Here is an example of a features map for a backend admin dashboard:
+            is created. Here is an example of a features map for a back end admin dashboard:
           </p>
-          <img src={featuresMapImg} className="features-map-img" />
+          <img src={featuresMapImg} className="features-map-img" alt="Planning" />
           <p>
             The features map should describe the relations between the main areas of the application. Such 
             representation could help understand how usable the final product will be. It can show the 
-            "relationship" between the different vies of the application, so it can be determined how easy 
+            "relationship" between the different views of the application, so it can be determined how easy 
             it will be for the end-user to find the required information or service if he or she starts from 
             the main view. The main reason behind the features map creation is to build a user-friendly and 
             easy to navigate application.
@@ -140,10 +140,10 @@ const Process = () => (
             logos, etc. It only describes the elements that will be added to the view and their location.
           </p>
           <p>Here is a basic example of a wireframe:</p>
-          <img src={basicWireframeImg} className="basic-wireframe-img" />
+          <img src={basicWireframeImg} className="basic-wireframe-img" alt="Wireframe" />
           <p>
             The final task is to select the technology stack - programming language, frameworks, platforms that 
-            will be used to develop the application, so that prototypes can be buit in the next phase.
+            will be used to develop the application, so that prototypes can be built in the next phase.
           </p>
         </Col>
       </Row>
@@ -164,13 +164,13 @@ const Process = () => (
             kept in mind while working on a design.
           </p>
           <p>
-            The product owner and target audience are give an opportunity to review the designs and to provide 
+            The product owner and target audience are given an opportunity to review the designs and to provide 
             feedback on the colors and layout and any other features of the design that they are concerned about.
           </p>
-          <img src={hifiCompositeImg} className="hifi-composite-img mt-5 mb-5" />
+          <img src={hifiCompositeImg} className="hifi-composite-img mt-5 mb-5" alt="Composite" />
           <p>
             After approval of the hi-fidelity composites, prototypes can be built to identify any technical 
-            issues and to make sure the technology stack that was choosen is valid for the project.
+            issues and to make sure the technology stack that was chosen is valid for the project.
           </p>
           <p>
             If there are no issues with any of the prototypes then a final review can take place and with approval 
@@ -223,9 +223,9 @@ const Process = () => (
             to give feedback from a user's point of view and see if the software fulfills their requirements.
           </p>
           <p>
-            Once all tests are passed, a meeting is held with the design and developent team along wiht the product 
-            owner and key memebers of the target audience to review what is being deliverd. Upon approval the application 
-            will either start the next iteration begining with phase 1, or it will move onto the deployment phase.
+            Once all tests are passed, a meeting is held with the design and development team along with the product 
+            owner and key members of the target audience to review what is being delivered. Upon approval the application 
+            will either start the next iteration beginning with phase 1, or it will move onto the deployment phase.
           </p>
           </Col>
       </Row>
@@ -241,8 +241,8 @@ const Process = () => (
             <h3>Phase 6: Deployment</h3>
             <p>
               The final phase is to deploy the application or parts of the application depending on the project.
-              This deployment process is typically handed off to a team or a deidicated person who is responsible 
-              for transfering the code to a staging server or a production server.
+              This deployment process is typically handed off to a team or a dedicated person who is responsible 
+              for transferring the code to a staging server or a production server.
             </p>
             <p>
               At this point the team moves on to other projects, or works on implementing new features for the 

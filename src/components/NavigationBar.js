@@ -33,7 +33,7 @@ class NavigationBar extends Component {
       }
     `;
 
-    const navItems = ['Home', 'About', 'Skills', 'Process', 'Work', 'Projects', 'Contact'];
+    const navItems = ['Home', 'About', 'Process', 'Work', 'Projects', 'Contact'];
 
     return (
       <Styles>

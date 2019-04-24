@@ -32,8 +32,9 @@ const Styles = styled.div`
 
 const ValueCard = (props) => (
   <Styles>
-    <Card style={{ width: '100%', paddingTop: '0px' }}>
+    <Card style={{ width: '100%', paddingTop: '0px', height: `${props.height}px`, boxShadow: '5px 5px 5px 0px rgba(0,0,0,0.10)' }}>
       <Card.Img variant="top" src={props.img} style={{ width: `${props.width}%`}} />
+      <hr />
       <Card.Body>
         <Card.Title className="center">{ props.title }</Card.Title>
         <Card.Text>

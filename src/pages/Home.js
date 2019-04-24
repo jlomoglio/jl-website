@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import bgImg from '../assets/bg.jpg';
-import Carousel from 'react-bootstrap/Carousel';
 
 const Styles = styled.div`
   .page {
@@ -42,6 +41,15 @@ const Styles = styled.div`
     color: white;
     background: transparent;
     padding: 10px;
+
+    &:hover {
+      text-decoration: none;
+      background: white;
+      
+      >a {
+        color: black;
+      }
+    }
   }
 
   a {
@@ -50,7 +58,7 @@ const Styles = styled.div`
 
     &:hover {
       text-decoration: none;
-      color: white;
+      color: black;
     }
   }
 `;
@@ -58,47 +66,17 @@ const Styles = styled.div`
 const Home = () => (
   <Styles>
     <div className="page">
-      <Carousel>
-        <Carousel.Item>
-          <div className="slide d-block w-100">
-            <div className="slideInner">
-              <h1 className="name">Joe LoMoglio</h1>
-              <h3> I'm a Creative UI/UX Designer & Developer</h3>
-              <h4>I exist where Code and Design Intersect</h4>
-              <br />
-              <button className="resume-btn">
-                <a href="JL_Resume_2019.pdf" target="_blank">Download Resume</a>
-              </button>
-            </div>
-          </div>
-        </Carousel.Item>
-        
-        <Carousel.Item>
-          <div className="slide d-block w-100">
-            <div className="slideInner">
-              <h1 className="name">Designer</h1>
-              <h2 className="p-3">
-                I understand the perfect user interface 
-                <br />
-                should look good and work even better. 
-              </h2>
-            </div>
-          </div>
-        </Carousel.Item>
-        
-        <Carousel.Item>
-          <div className="slide d-block w-100">
-            <div className="slideInner">
-              <h1 className="name">Developer</h1>
-              <h2 className="p-3">
-                I specialize in creating modular and scalable 
-                <br /> 
-                front-end architectures and components.
-              </h2>
-            </div>
-          </div>
-        </Carousel.Item>
-      </Carousel>
+      <div className="slide d-block w-100">
+        <div className="slideInner">
+          <h1 className="name">{'${Joe LoMoglio}'}</h1>
+          <h3> Not Your Average UI/UX Designer & Front End Developer</h3>
+          <h4>I exist where Code and Design Intersect</h4>
+          <br />
+          <button className="resume-btn">
+            <a href="JL_Resume_2019.pdf" target="_blank">Download Resume</a>
+          </button>
+        </div>
+      </div>
     </div>
   </Styles>
 );

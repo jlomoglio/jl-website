@@ -57,19 +57,19 @@ const Contact = () => (
           </h4>
 
           <div className="icons">
-            <a href="JL_Resume_2019.pdf" target="_blank">
+            <a href="JL_Resume_2019.pdf" target="_blank" rel="noopener noreferrer">
               <img src={resumeIcon} className="icon" alt="Download Resume" />
             </a>
-            <a href="https://github.com/jlomoglio" target="_blank">
+            <a href="https://github.com/jlomoglio" target="_blank" rel="noopener noreferrer">
               <img src={githubIcon} className="icon" alt="GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/joe-lomoglio-designer/" target="_blank">
+            <a href="https://www.linkedin.com/in/joe-lomoglio-designer/" target="_blank" rel="noopener noreferrer">
               <img src={linkedinIcon} className="icon" alt="LinkedIn" />
             </a>
           </div>
         </Col>
         <Col sm={12} md={6} className="center">
-          <img src={meImg} className="me-img" />
+          <img src={meImg} className="me-img" alt="Me Desk" />
         </Col>
       </Row>
 

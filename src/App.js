@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
-import Skills from './pages/Skills';
 import Process from './pages/Process';
 import Work from './pages/Work';
 import Projects from './pages/Projects';
@@ -30,8 +29,6 @@ class App extends Component {
         return <Home />;
       case 'About':
         return <About />;
-      case 'Skills':
-        return <Skills />;
       case 'Process':
         return <Process />;
       case 'Work':
