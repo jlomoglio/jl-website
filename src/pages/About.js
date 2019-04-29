@@ -78,11 +78,11 @@ const About = () => (
           <Col sm={12} md={6} className="pb-5">
             <span className="h3">I'M </span> <span className="h1 text-primary">JOE LOMOGLIO</span> <span className="h3"> AND I'M A</span>
             <span className="h2"> DEVELOPER, DESIGNER</span> <span className="h3">AND</span><span className="h2"></span><br />
-            <span className="h3 text-success">  REACT.JS PADAWAN.</span>
+            <span className="h3 text-success">REACT.JS JEDI PADAWAN.</span>
             <p className="pt-4">
-              An innovative, passionate and creative professional who has a wealth of knowledge and experience around design and development. 
-              Specializing in innovative, creative and groundbreaking solutions and a proven track record of conceptualizing user-centric, high 
-              quality, on-trend designs and interfaces. Strengths include a fusion of design, development and leadership skills and also an 
+              I am an innovative, passionate and creative professional who has a wealth of knowledge and experience around design and development. 
+              Specializing in creative and groundbreaking solutions and a proven track record of conceptualizing user-centric, high 
+              quality interfaces. Strengths include a fusion of design, development and leadership skills and also an 
               ability to solve complex problems using both logic and creativity.
             </p>
             <p>
@@ -102,25 +102,18 @@ const About = () => (
               </Col>
               <Col sm={12} md={9} className="p-4">
                 <p className="pt-2">
-                  I'm a front-end developer who is passionate about Javascript, building great user experiences, fighting for simplicity 
+                  I'm a front-end developer who is passionate about ReactJS, building great user experiences, fighting for simplicity 
                   over complexity, constantly learning and someone who strives to mentor and share with other developers around me 
                   (so, hopefully, they'll mentor and share with me).
                 </p>
                 <p>
-                  Being a well-known front-end developer over the past ten years, I helped many companies shape their 
-                  products and development teams. I bring my knowledge and 
-                  experience to other teams and projects.
-                </p>
-                <p>
-                  I am typically hired by companies who need more than just a JavaScript Developer. They are looking for someone 
+                  I am hired by companies who need more than just a JavaScript Developer. They are looking for someone 
                   that can help shape and mold their product and to lead the team in that effort. Unlike most front-end developers
                   my skills in design help me to craft interfaces and architectures that meet the exact needs of the user experience.
                 </p>
                 <p>
-                  Up until a year ago I was a huge fan of VueJS and I even designed and built my own custom component library 
-                  - Vui. Today I am a huge fan of React, I absolutely love it. I am also a big fan of the M.E.R.N. stack.
-                  I may be a mid-level with my M.E.R.N. skills, but I am eager to continuing learning and want to focus
-                  all my development efforts into mastering it.
+                  Up until a year ago my focus was on VueJS, I designed and built my own custom component library 
+                  - Vui. Today all my focus is on Full stack React development.
                 </p>
               </Col>
             </Row>
@@ -134,6 +127,7 @@ const About = () => (
                 </div>
               </Col>
             </Row>
+            
             <Row>
               <Col sm={12} md={3}>
                 <div class="inner-content text-center">
@@ -172,6 +166,7 @@ const About = () => (
                 </div>
               </Col>
             </Row>
+            
             <Row>
               <Col sm={12} md={3}>
                 <div class="inner-content text-center">
@@ -188,29 +183,9 @@ const About = () => (
                     <span>75%</span>
                     <div class="slice"><div class="bar"></div><div class="fill"></div></div>
                   </div>
-                  <p><em>JavaScript</em></p>
-                </div>
-              </Col>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
-                  <div class="c100 p80 center">
-                    <span>80%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
-                  <p><em>jQuery</em></p>
-                </div>
-              </Col>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
-                  <div class="c100 p75 center">
-                    <span>75%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
                   <p><em>ES6/ES7</em></p>
                 </div>
               </Col>
-            </Row>
-            <Row>
               <Col sm={12} md={3}>
                 <div class="inner-content text-center">
                   <div class="c100 p85 center">
@@ -229,6 +204,9 @@ const About = () => (
                   <p><em>React</em></p>
                 </div>
               </Col>
+            </Row>
+
+            <Row>
               <Col sm={12} md={3}>
                 <div class="inner-content text-center">
                   <div class="c100 p70 center">
@@ -236,26 +214,6 @@ const About = () => (
                     <div class="slice"><div class="bar"></div><div class="fill"></div></div>
                   </div>
                   <p><em>Axios / Fetch</em></p>
-                </div>
-              </Col>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
-                  <div class="c100 p80 center">
-                    <span>80%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
-                  <p><em>Rest API's</em></p>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
-                  <div class="c100 p65 center">
-                    <span>65%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
-                  <p><em>MongoDB / Firebase</em></p>
                 </div>
               </Col>
               <Col sm={12} md={3}>
@@ -278,49 +236,11 @@ const About = () => (
               </Col>
               <Col sm={12} md={3}>
                 <div class="inner-content text-center">
-                  <div class="c100 p60 center">
-                    <span>60%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
-                  <p><em>JIRA</em></p>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
                   <div class="c100 p30 center">
                     <span>30%</span>
                     <div class="slice"><div class="bar"></div><div class="fill"></div></div>
                   </div>
-                  <p><em>Express</em></p>
-                </div>
-              </Col>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
-                  <div class="c100 p30 center">
-                    <span>30%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
-                  <p><em>Node</em></p>
-                </div>
-              </Col>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
-                  {/* <div class="c100 p80 center">
-                    <span>80%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
-                  <p><em>MobX</em></p> */}
-                </div>
-              </Col>
-              <Col sm={12} md={3}>
-                <div class="inner-content text-center">
-                  {/* <div class="c100 p60 center">
-                    <span>60%</span>
-                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
-                  </div>
-                  <p><em>JIRA</em></p> */}
+                  <p><em>Redux</em></p>
                 </div>
               </Col>
             </Row>
@@ -340,13 +260,11 @@ const About = () => (
                 </p>
                 <p>
                   But even back then I had the concept of single page applications, everything I built started with index.php and each
-                  of the pages were added using includes. While its been many years since my days of PHP4 and MySQL. I have played around
-                  and built a few projects with Laravel and I have also built a few projects with Python Flask.
+                  of the pages were added using includes, which lead me on a journey to the front end in 2010. Today I have come full circle. 
+                  I enjoy building API's with PHP, Pyhton and Node/Express. 
                 </p>
                 <p>
-                  In terms of where my back-end skills are today - I am a junior developer when it comes to PHP, Python and ASP.Net because 
-                  they are not something I do on a daily basis based on past jobs, but the back-end is of interest because 
-                  the designer in me wants to understand the full picture of an application and I am always eager to learn more.
+                  I am also knowledgable with databases using SQLAlchemy and also working with Firebase and MongoDB.
                 </p>
               </Col>
             </Row>
@@ -379,8 +297,37 @@ const About = () => (
               </Col>
               <Col sm={12} md={3}>
                 <div class="inner-content text-center">
+                  <div class="c100 p45 center">
+                    <span>45%</span>
+                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                  </div>
+                  <p><em>NodeJS</em></p>
+                </div>
+              </Col>
+              <Col sm={12} md={3}>
+                <div class="inner-content text-center">
+                  <div class="c100 p45 center">
+                    <span>45%</span>
+                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                  </div>
+                  <p><em>Express</em></p>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={12} md={3}>
+                <div class="inner-content text-center">
                   <div class="c100 p50 center">
                     <span>50%</span>
+                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                  </div>
+                  <p><em>Rest API's</em></p>
+                </div>
+              </Col>
+              <Col sm={12} md={3}>
+                <div class="inner-content text-center">
+                  <div class="c100 p40 center">
+                    <span>40%</span>
                     <div class="slice"><div class="bar"></div><div class="fill"></div></div>
                   </div>
                   <p><em>SQLAlchemy</em></p>
@@ -388,11 +335,20 @@ const About = () => (
               </Col>
               <Col sm={12} md={3}>
                 <div class="inner-content text-center">
-                  <div class="c100 p30 center">
-                    <span>30%</span>
+                  <div class="c100 p40 center">
+                    <span>40%</span>
                     <div class="slice"><div class="bar"></div><div class="fill"></div></div>
                   </div>
-                  <p><em>ASP.Net / C#</em></p>
+                  <p><em>Firebase</em></p>
+                </div>
+              </Col>
+              <Col sm={12} md={3}>
+                <div class="inner-content text-center">
+                  <div class="c100 p40 center">
+                    <span>40%</span>
+                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                  </div>
+                  <p><em>MongoDB</em></p>
                 </div>
               </Col>
             </Row>
@@ -406,26 +362,25 @@ const About = () => (
               </Col>
               <Col sm={12} md={9} className="p-4">
                 <p className="pt-2">
-                  I am a curious, self driven user experience designer who is passionate in emerging technologies,
-                  social good, advocating ux design across all fields of work, facilitating design education,
-                  bridging diverse communities, and being a role model for designers looking to grow in their careers.
+                  I anything but your typical UX Designer - I am a developer with strong UX design skills.
+                  I aproach UX from a development perspective. I don't concern myself with metrics or fancy 
+                  deliverables. I create practical wireframes and user journry maps and prototypes that make
+                  sense to developers as these are our blueprints for development.
                 </p>
                 <p>
-                  Learning together is the biggest superpower we can do to drive change. My passion for helping others
-                  comes from the guidance my mentors have given me. Touched by their encouragement
-                  and willingness to teach me, I strive to do the same, whether it’s teaching, speaking about design,
-                  and empowering teammates in collaborative settings as a leader with a big heart.
+                  I don't beleive that design is a full time discipline, but rather part of the development process.
+                  What makes me a valuable asset to the teams I work on is my design skills and how I integrate them
+                  into my day to day development flow.
                 </p>
                 <p>
-                  I specialize in Users. From Interfaces to Experiences my goal is to create things that just work.
+                  That being said - I do specialize in Users. From Interfaces to Experiences my goal is to create things that just work.
                   I design pixel based solutions for web applications using the latest technologies, and a touch of
                   Jedi Mind Powers.
                 </p>
                 <p>
-                  I am passionate about creative problem solving and I look forward enhancing the User Experience through clever
-                  and fun interfaces using the skills and experience I have acquired thus far. I love learning about people,
-                  their culture, and how they interact with one another. Fortunately, my curiosity has been the drive behind my
-                  love for research, design and development.
+                  I am also passionate about creative problem solving and I look forward enhancing the User Experience through clever
+                  interfaces using the skills and experience I have acquired thus far. I love learning about how people interact with technology.
+                  Fortunately, my curiosity has been the drive behind my love for design and development.
                 </p>
                 <p>
                   Currently, I'm looking for an enthusiastic team of like minded people to build awesome things with.
