@@ -32,8 +32,12 @@ const Styles = styled.div`
     text-align: center;
   }
 
-  .name {
-    font-size: 90px;
+  h1 {
+    font-size: 7vw;
+  }
+
+  h3, h4 {
+    font-size: 3vw;
   }
 
   .resume-btn {
@@ -69,11 +73,11 @@ const Home = () => (
       <div className="slide d-block w-100">
         <div className="slideInner">
           <h1 className="name">{'${Joe LoMoglio}'}</h1>
-          <h3> Not Your Average UI/UX Designer & Front End Developer</h3>
-          <h4>I exist where Code and Design Intersect</h4>
+          <h3>Not Your Average Front End Developer</h3>
+          <h4>I am a Developer with strong design skills.</h4>
           <br />
           <button className="resume-btn">
-            <a href="JL_Resume_2019.pdf" target="_blank">Download Resume</a>
+            <a href="https://docs.google.com/document/d/1lN60T2lj-E6pDvlqF7FcCMXKKHbtvjdPRg8Iwjj-2nQ/edit?usp=sharing" target="_blank">Download Resume</a>
           </button>
         </div>
       </div>

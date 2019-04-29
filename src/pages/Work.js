@@ -45,27 +45,26 @@ const JLC = () => (
   <React.Fragment>
     <span className="job-date">Nov 2017 - Present | 1997 - 2009</span>
     <br />
-    <span className="job-title bold">Freelance Design & Development</span>
+    <span className="job-title bold">Full-stack Development & Design</span>
     <br /><br />
     <span className="bold">Project:</span>
     <p>
       Various project types in a variety of different fields and industries.
     </p>
 
-    <span className="list-item">- Real Estate web sites & photography</span>
-    <span className="list-item">- The Home Resource Center Web Portal</span>
-    <span className="list-item">- InfoSearch Web portal (Clear Channel)</span>
-    <span className="list-item">- Brochures, Posters and Repographics</span>
-    <span className="list-item">- Custom Home Design (Skeen Homes)</span>
-    <span className="list-item">- Construction web design</span>
-    <span className="list-item">- Photo art and digital compositing</span>
-    <span className="list-item">- Game Design & Development (Unity)</span>
-    <span className="list-item">- 3D Modeling (3DS MAX, Blender, Mya)</span>
-    <span className="list-item">- Drafting & Engineering AutoCAD</span>
+    <span className="list-item">- Vui-Kit a custom component library for VueJS. (2018)</span>
+    <span className="list-item">- iManage, a corporate agile team management tool. (2019)</span>
+    <span className="list-item">- Game Design & Development (Unity) (2018)</span>
+    <span className="list-item">- The Home Resource Center Web Portal (1997 - 2003)</span>
+    <span className="list-item">- InfoSearch Web portal (1999 - 2003)</span>
+    <span className="list-item">- Custom Home Design (1997 - 2000)</span>
+    <span className="list-item">- Web Design (1997 - 2009)</span>
+    <span className="list-item">- 3D Modeling (1997 - 2005)</span>
+    
     <br /><br />
     <span className="bold">Technologies Used:</span>
     <p>
-      HTML 5, CSS3/SASS, JavaScript, jQuery, Vue, React, PHP (Laravel), Python (Flask)
+      HTML5, CSS3/SASS, ES6/ES7, jQuery, Vue, React (M.E.R.N.), MobX, Styled-Components, PHP (Laravel), Python (Flask)
     </p>
   </React.Fragment>
 );

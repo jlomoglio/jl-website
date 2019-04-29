@@ -42,7 +42,8 @@ const Imanage = () => (
     <span className="bold">iManage</span>
     <br />
     <span>
-      <a href="https://github.com/jlomoglio/imanage" target="_blank" rel="noopener noreferrer">Code Repository</a>
+      <a href="https://github.com/jlomoglio/imanage" target="_blank" rel="noopener noreferrer">Code Repository</a> |
+      <a href="https://jlomoglio.github.io/imanage/" target="_blank" rel="noopener noreferrer" className="link2">Demo Site</a>
     </span>
     <br /><br />
     <p>
@@ -90,63 +91,7 @@ const Vui = () => (
   </React.Fragment>
 );
 
-// const JCore = () => (
-//   <React.Fragment>
-//     <span className="bold">jCore</span>
-//     <br />
-//     <span>
-//       <a href="https://github.com/jlomoglio/jCore" target="_blank" rel="noopener noreferrer">Code Repository</a>
-//     </span>
-//     <br /><br />
-//     <p>
-//       jCore is the custom framework I designed and built for rapidly creating documentation 
-//       websites and basic web applications. The framework mimics the base concepts of VueJS. Its 
-//       a single page application framework built using jQuery for its functional structure. 
-//     </p>
-//   </React.Fragment>
-// );
 
-// const ReactForm = () => (
-//   <React.Fragment>
-//     <span className="bold">Multi-Part Form</span>
-//     <br />
-//     <span>
-//       <a href="https://github.com/jlomoglio/react-form" target="_blank" rel="noopener noreferrer">Code Repository</a>
-//     </span>
-//     <br /><br />
-//     <p>
-//       A react multi-part form that I built while learning React. 
-//     </p>
-//   </React.Fragment>
-// );
-
-// const ReactTV = () => (
-//   <React.Fragment>
-//     <span className="bold">TV Series Search</span>
-//     <br />
-//     <span>
-//       <a href="https://github.com/jlomoglio/React-TV-App" target="_blank" rel="noopener noreferrer">Code Repository</a>
-//     </span>
-//     <br /><br />
-//     <p>
-//       A react app for searching for TV series from a remote API. Another learning project. 
-//     </p>
-//   </React.Fragment>
-// );
-
-// const ReactWebsite = () => (
-//   <React.Fragment>
-//     <span className="bold">JL Portfolio Website</span>
-//     <br />
-//     <span>
-//       <a href="https://github.com/jlomoglio/jl-website" target="_blank" rel="noopener noreferrer">Code Repository</a>
-//     </span>
-//     <br /><br />
-//     <p>
-//       The code for this website. My most recent react project.
-//     </p>
-//   </React.Fragment>
-// );
 
 const Projects = () => (
   <Styles>

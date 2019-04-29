@@ -57,7 +57,7 @@ const Styles = styled.div`
 const Process = () => (
   <Styles>
     <div className="page">
-      <h1 className="center">Six Phases of the Design and Development Process</h1>
+      <h1 className="center">My Six Phases of Design and Development</h1>
       <h3 className="pt-4 center mb-4">
         There are several important steps in the design and development process.
         Starting with gathering the initial information, through to the creation 

@@ -57,7 +57,7 @@ const Contact = () => (
           </h4>
 
           <div className="icons">
-            <a href="JL_Resume_2019.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://docs.google.com/document/d/1lN60T2lj-E6pDvlqF7FcCMXKKHbtvjdPRg8Iwjj-2nQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
               <img src={resumeIcon} className="icon" alt="Download Resume" />
             </a>
             <a href="https://github.com/jlomoglio" target="_blank" rel="noopener noreferrer">
